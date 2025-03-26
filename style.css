@@ -47,7 +47,8 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #3a3f52;
+    background-color: #ffffff; /* 浅背景 */
+    color: #000000; /* 深文本 */
 }
 
 h2 {
@@ -83,6 +84,15 @@ b {
 
 section {
     padding: 100px 0px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px dashed #000;
+    outline-offset: 2px;
 }
 
 .title-block {
