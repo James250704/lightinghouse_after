@@ -21,7 +21,17 @@
             content="Digital Innovation and the Future of Digital Marketing. Boost your campaigns and increase conversion rates with our cutting-edge tools."
         />
         <!-- Custom Css -->
-        <link rel="stylesheet" href="style.css" type="text/css" translate="no" />
+        <link
+            rel="preload"
+            href="style.css"
+            as="style"
+            onload="this.onload=null;this.rel='stylesheet'"
+            type="text/css"
+            translate="no"
+        />
+        <noscript
+            ><link rel="stylesheet" href="style.css" type="text/css" translate="no"
+        /></noscript>
 
         <!-- Ionic icons -->
         <link
@@ -435,16 +445,19 @@
             src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
             crossorigin="anonymous"
+            defer
         ></script>
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
             integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
             crossorigin="anonymous"
+            defer
         ></script>
         <script
             src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
             integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
             crossorigin="anonymous"
+            defer
         ></script>
     </body>
 </html>
